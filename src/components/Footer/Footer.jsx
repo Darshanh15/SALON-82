@@ -2,6 +2,7 @@
 
 import React from "react";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 import logo from "../../assets/Saloon 82-01.png";
 
@@ -24,15 +25,15 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="footer-links">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/privacy">Privacy Policy</a></li>
-          </ul>
-        </div>
+<div className="footer-links">
+  <h4>Quick Links</h4>
+  <ul>
+    <li><Link to="/about">About Us</Link></li>
+    <li><Link to="/services">Services</Link></li>
+    <li><Link to="/contact">Contact</Link></li>
+    <li><Link to="/privacy">Privacy Policy</Link></li>
+  </ul>
+</div>
 
         <div className="footer-social">
           <h4>Follow Us</h4>

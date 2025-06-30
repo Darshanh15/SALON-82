@@ -148,6 +148,10 @@ const Home = () => {
             <h3>Bridal Packages</h3>
             <p>Luxurious bridal grooming for your perfect day.</p>
           </div>
+          <div className="service-card">
+            <h3>Nail & Art</h3>
+            <p>Nail extensions, art, and manicure-pedicure combos.</p>
+          </div>
         </div>
       </section>
 

@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Navbar as BootstrapNavbar, Nav, NavDropdown } from 'react-bootstrap';
 // import '../../styles/_navbar.scss';
 import logo from '../../assets/Saloon 82-01.png'; // Ensure correct path
+import { NavLink } from 'react-router-dom';
+
 
 const Navbar = () => {
   return (
@@ -18,17 +20,20 @@ const Navbar = () => {
             <Nav.Link href="#/" className="nav-link-custom">Home</Nav.Link>
             <Nav.Link href="#/about" className="nav-link-custom">About</Nav.Link>
             <Nav.Link href="#/gallery" className="nav-link-custom">Gallery</Nav.Link>
+            {/* <Nav.Link as={NavLink} to="/gallery" className="nav-link-custom">Gallery</Nav.Link> */}
+            <Nav.Link href="#/services" className="nav-link-custom">Services</Nav.Link>
+
 
             {/* Dropdown for Services */}
-            <NavDropdown title="Services" id="services-dropdown" className="nav-link-custom">
+            {/* <NavDropdown title="Services" id="services-dropdown" className="nav-link-custom">
               <NavDropdown.Item href="#/services/hair">Hair</NavDropdown.Item>
               <NavDropdown.Item href="#/services/skin">Skin</NavDropdown.Item>
               <NavDropdown.Item href="#/services/coloring">Coloring</NavDropdown.Item>
               <NavDropdown.Item href="#/services">Services</NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
 
              {/* Contact Button */}
-            <Nav.Link href="#/contact" className="contact-btn ms-3">Contact</Nav.Link>
+            <Nav.Link href="#/contact" className="nav-link-custom">Contact</Nav.Link>
           
           </Nav>
         </BootstrapNavbar.Collapse>

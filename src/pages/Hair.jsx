@@ -11,6 +11,9 @@ import img8 from '../assets/gallery/gallery-8.jpg';
 
 import './Hair.scss';
 
+import { Link } from 'react-router-dom';
+
+
 const Hair = () => {
   return (
     <div className="service-hair-page">
@@ -55,7 +58,9 @@ const Hair = () => {
                     <h2>Hair Repair</h2>
                     <p>Eleifend viverra massa faucibus tristique curabitur morbi enim.</p>
                 </div>
-                <button>BOOK Now</button>
+                <Link to="/contact">
+                    <button>BOOK NOW</button>
+                </Link>
             </div>
         </div>
       <div className="hair-img">

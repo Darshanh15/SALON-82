@@ -1,12 +1,16 @@
-import React from 'react';
-import './Contact.css';
+import React from "react";
+import "./Contact.scss";
+import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa';
+
 
 const Contact = () => {
   return (
     <div className="contact-page">
       <section className="contact-header">
         <h1>Contact SALON 82</h1>
-        <p>Let’s glow up together – we’re here to help you book, ask, or connect!</p>
+        <p>
+          Let’s glow up together – we’re here to help you book, ask, or connect!
+        </p>
       </section>
 
       <section className="contact-container">
@@ -14,9 +18,19 @@ const Contact = () => {
           <h2>Send Us a Message</h2>
           <form>
             <input type="text" name="name" placeholder="Your Name" required />
-            <input type="email" name="email" placeholder="Your Email" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
             <input type="text" name="phone" placeholder="Phone Number" />
-            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
             <button type="submit">Send Message</button>
           </form>
         </div>
@@ -29,10 +43,16 @@ const Contact = () => {
           <p>📧 info@salon82.in</p>
 
           <div className="social-icons">
-            <a href="#"><i className="fab fa-facebook-f"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
-            <a href="#"><i className="fab fa-youtube"></i></a>
-          </div>
+      <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        <FaFacebookF />
+      </a>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        <FaInstagram />
+      </a>
+      <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+        <FaYoutube />
+      </a>
+    </div>
         </div>
       </section>
     </div>

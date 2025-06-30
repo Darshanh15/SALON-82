@@ -1,8 +1,27 @@
-$primary-color: #c2185b;
-$secondary-color: #444;
-$light-color: #777;
-$background-color: #fff;
-$font-family: 'Poppins', sans-serif;
+
+$primary-color: #f4941c;
+$primary-dark: #f49424;
+$primary-light: #ec9432;
+
+// $secondary-color: #94949b;
+$secondary-color: #404044;
+$primary-base: #fff0f5;
+$pink-color: #c2185b;
+
+// Text Colors
+$text-light: #ffffff;
+$white-color: #ffffff;
+$text-dark: #1b1919;
+$text-muted: #aaaaaa;
+$text-h1: #aaaaaa;
+
+// Backgrounds
+
+$bg-dark: #1b1919;
+$bg-light: #f8f8f8;
+
+// Border Colors
+$border-light: #e0e0e0;
 
 // .about {
 //   padding: 5rem 2rem;
@@ -122,8 +141,8 @@ $font-family: 'Poppins', sans-serif;
 
 .about {
   padding: 5rem 2rem;
-  background-color: $background-color;
-  font-family: $font-family;
+  background-color: $bg-light;
+  // font-family: $font-family;
   color: $secondary-color;
 
   &__banner {
@@ -141,7 +160,7 @@ $font-family: 'Poppins', sans-serif;
 
     p {
       font-size: 1.2rem;
-      color: $light-color;
+      color: $bg-light;
     }
   }
 

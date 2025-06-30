@@ -35,7 +35,7 @@ const About = () => {
         variants={fadeUpVariant}
         custom={0}
       >
-        <h1>Welcome to <span>SALON 1000</span></h1>
+        <h1>Welcome to <span>SALON 82</span></h1>
         <p>Where beauty, style, and luxury come together</p>
       </motion.div>
 

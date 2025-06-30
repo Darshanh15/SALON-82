@@ -1,0 +1,66 @@
+@import './variables'; // assuming SCSS variable file is available
+@import './colors';
+
+.gallery-page {
+  padding: 60px 20px;
+  background-color: $bg-light;
+  text-align: center;
+
+  .gallery-header {
+    margin-bottom: 40px;
+
+    h1 {
+      font-size: 2.8rem;
+      color: $pink-color;
+    }
+
+    p {
+      color: $text-muted;
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+
+    .gallery-item {
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      img {
+        width: 100%;
+        height: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        transition: transform 0.4s ease;
+      }
+
+      &:hover {
+        transform: scale(1.03);
+        box-shadow: 0 16px 30px rgba(0, 0, 0, 0.15);
+
+        img {
+          transform: scale(1.08);
+        }
+      }
+    }
+  }
+}
+
+// Mobile optimization
+@media (max-width: 600px) {
+  .gallery-header h1 {
+    font-size: 2rem;
+  }
+
+  .gallery-grid {
+    gap: 15px;
+  }
+}
