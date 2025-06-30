@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/SALON82/static/css/main.42e2874a.css",
+    "main.js": "/SALON82/static/js/main.dd6e456f.js",
+    "static/js/453.d2e3cbc6.chunk.js": "/SALON82/static/js/453.d2e3cbc6.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/SALON82/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/imge-all.jpeg": "/SALON82/static/media/imge-all.631986b003680ae5fcf0.jpeg",
+    "static/media/fontawesome-webfont.eot": "/SALON82/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/SALON82/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/hair-img.jpg": "/SALON82/static/media/hair-img.a4f63056da34bf226d57.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/SALON82/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/SALON82/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/gallery-3.jpg": "/SALON82/static/media/gallery-3.8959eb5f5ceeb65413c8.jpg",
+    "static/media/gallery-8.jpg": "/SALON82/static/media/gallery-8.1cc5b7982a15fe307683.jpg",
+    "static/media/gallery-5.jpg": "/SALON82/static/media/gallery-5.a04451d604ef9f805794.jpg",
+    "static/media/gallery-2.jpg": "/SALON82/static/media/gallery-2.93b21fed31331d365d67.jpg",
+    "static/media/gallery-6.jpg": "/SALON82/static/media/gallery-6.c7a13b7bb142e258c63e.jpg",
+    "static/media/main-img.jpeg": "/SALON82/static/media/main-img.46e03890cb7149442b46.jpeg",
+    "static/media/gallery-1.jpg": "/SALON82/static/media/gallery-1.c759876af5352ab58803.jpg",
+    "static/media/gallery-4.jpg": "/SALON82/static/media/gallery-4.66515bce337140b75ffe.jpg",
+    "static/media/Saloon 82-01.png": "/SALON82/static/media/Saloon 82-01.feb84dd0f94d6231fbd0.png",
+    "static/media/gallery-7.jpg": "/SALON82/static/media/gallery-7.01e59754d590a0ac5719.jpg",
+    "index.html": "/SALON82/index.html",
+    "main.42e2874a.css.map": "/SALON82/static/css/main.42e2874a.css.map",
+    "main.dd6e456f.js.map": "/SALON82/static/js/main.dd6e456f.js.map",
+    "453.d2e3cbc6.chunk.js.map": "/SALON82/static/js/453.d2e3cbc6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42e2874a.css",
+    "static/js/main.dd6e456f.js"
+  ]
+}
