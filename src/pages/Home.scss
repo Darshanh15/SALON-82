@@ -83,12 +83,11 @@
     }
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 359px) {
     flex-direction: column;
 
-  
     .hero-section{
-        height: 100vh;
+        height: 80vh;
         top: 200px;
         padding: 0;
     }
@@ -99,65 +98,15 @@
       margin: 0;
       padding: 0;
     }
+    .hero-image{
+      top: 0;
+      align-items: center;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
   }
 }
-
-
-// .sticky-section {
-//   position: relative;
-//   height: 100vh;
-//   overflow: hidden;
-
-//   .sticky-bg-image {
-//     position: fixed;
-//     top: 0;
-//     left: 0;
-//     width: 100vw;
-//     height: 100vh;
-//     background: url('../assests/fashion-makeup.jpg') no-repeat center center;
-//     background-size: cover;
-//     background-attachment: fixed;
-//     z-index: -1;
-//   }
-
-//   .sticky-content {
-//     position: relative;
-//     z-index: 1;
-//     color: white;
-//     text-align: center;
-//     padding: 150px 20px;
-
-//     h1 {
-//       font-size: 3rem;
-//       margin-bottom: 20px;
-//       text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
-//     }
-
-//     p {
-//       max-width: 700px;
-//       margin: 0 auto;
-//       font-size: 1.1rem;
-//       text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-//     }
-
-//     button {
-//       margin-top: 30px;
-//       padding: 10px 24px;
-//       font-weight: bold;
-//       border: none;
-//       border-radius: 25px;
-//       background-color: white;
-//       color: #c2185b;
-//       transition: all 0.3s ease;
-
-//       &:hover {
-//         background-color: #c2185b;
-//         color: white;
-//       }
-//     }
-//   }
-// }
-
 
 .sticky-section {
   position: relative;

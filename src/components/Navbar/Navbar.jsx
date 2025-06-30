@@ -9,26 +9,26 @@ const Navbar = () => {
       <Container>
         <BootstrapNavbar.Brand href="/" className="d-flex align-items-center">
           <img src={logo} alt="Salon 82 Logo" className="navbar-logo" />
-          <span className="ms-2 logo-text">SALON 82 Hair & Skin</span>
+          <span className="ms-2 logo-text"></span>
         </BootstrapNavbar.Brand>
 
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
         <BootstrapNavbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="/" className="nav-link-custom">Home</Nav.Link>
-            <Nav.Link href="/about" className="nav-link-custom">About</Nav.Link>
-            <Nav.Link href="/gallery" className="nav-link-custom">Gallery</Nav.Link>
+            <Nav.Link href="#/" className="nav-link-custom">Home</Nav.Link>
+            <Nav.Link href="#/about" className="nav-link-custom">About</Nav.Link>
+            <Nav.Link href="#/gallery" className="nav-link-custom">Gallery</Nav.Link>
 
             {/* Dropdown for Services */}
             <NavDropdown title="Services" id="services-dropdown" className="nav-link-custom">
-              <NavDropdown.Item href="/services/hair">Hair</NavDropdown.Item>
-              <NavDropdown.Item href="/services/skin">Skin</NavDropdown.Item>
-              <NavDropdown.Item href="/services/coloring">Coloring</NavDropdown.Item>
-              <NavDropdown.Item href="/services">Services</NavDropdown.Item>
+              <NavDropdown.Item href="#/services/hair">Hair</NavDropdown.Item>
+              <NavDropdown.Item href="#/services/skin">Skin</NavDropdown.Item>
+              <NavDropdown.Item href="#/services/coloring">Coloring</NavDropdown.Item>
+              <NavDropdown.Item href="#/services">Services</NavDropdown.Item>
             </NavDropdown>
 
              {/* Contact Button */}
-            <Nav.Link href="/contact" className="contact-btn ms-3">Contact</Nav.Link>
+            <Nav.Link href="#/contact" className="contact-btn ms-3">Contact</Nav.Link>
           
           </Nav>
         </BootstrapNavbar.Collapse>
