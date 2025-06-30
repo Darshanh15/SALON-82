@@ -1,0 +1,96 @@
+.home {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to right, #ffe0ec, #ffd6e8);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  color: #c2185b;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.hero-button {
+  background-color: #c2185b;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero-button:hover {
+  background-color: #a3144a;
+}
+
+/* Services Preview */
+.services-preview {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff0f5;
+}
+
+.services-preview h2 {
+  font-size: 2rem;
+  color: #c2185b;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service-card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h3 {
+  color: #c2185b;
+  margin-bottom: 10px;
+}
+
+/* Call to Action */
+.cta-section {
+  background-color: #c2185b;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta-button {
+  background-color: white;
+  color: #c2185b;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #ffe6f0;
+}

@@ -1,0 +1,128 @@
+@import '../styles/colors';
+
+.service-hair-page {
+  background-color: $primary-light; // Matches the grey background
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 80px 5%;
+  min-height: 100vh;
+
+  .text {
+    flex: 1 1 50%;
+    padding-right: 40px;
+
+    .heder-text {
+      h1 {
+        font-size: 3.5rem;
+        color: #1f1f1f;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.1rem;
+        color: #333;
+        line-height: 1.8;
+        margin-bottom: 40px;
+        max-width: 600px;
+      }
+    }
+
+    .tritment-div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+
+      .tritment {
+        background: transparent;
+        border-left: 3px solid $pink-color;
+;
+        padding-left: 20px;
+
+        h1 {
+          font-size: 4rem;
+          color: #1f1f1f;
+          margin-bottom: 5px;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+          font-family: 'Playfair Display', serif;
+          font-weight: 900;
+        }
+
+        h2 {
+          font-size: 1.2rem;
+          color: #1f1f1f;
+          font-weight: 600;
+        }
+
+        p {
+          font-size: 1rem;
+          color: #333;
+          margin-top: 5px;
+        }
+      }
+
+      button {
+        grid-column: span 2;
+        margin-top: 40px;
+        padding: 12px 28px;
+        background-color: #c2a470;
+        border: none;
+        font-weight: 600;
+        font-size: 1rem;
+        color: white;
+        border-radius: 30px;
+        width: fit-content;
+        justify-self: start;
+
+        &:hover {
+          background-color: darken(#c2a470, 10%);
+        }
+      }
+    }
+  }
+
+  .hair-img {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+    //   width: 100%;
+    //   max-width: 800px;
+    //   height: 1000px;
+    //   border-radius: 10px;
+    //   object-fit: cover;
+
+     width: 100%;
+    height: 1000px;
+    object-fit: cover;  // ✅ Ensures full coverage
+    border-radius: 10px;
+    display: block;
+    }
+  }
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+
+    .text,
+    .hair-img {
+      flex: 1 1 100%;
+      padding: 0;
+      text-align: center;
+    }
+
+    .tritment-div {
+      grid-template-columns: 1fr;
+
+      button {
+        justify-self: center;
+      }
+    }
+
+    .hair-img {
+      margin-top: 40px;
+    }
+  }
+}
