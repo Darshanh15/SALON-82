@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SALON-82/static/css/main.e299ad22.css",
-    "main.js": "/SALON-82/static/js/main.b877aa64.js",
+    "main.css": "/SALON-82/static/css/main.96d83cff.css",
+    "main.js": "/SALON-82/static/js/main.de78e966.js",
     "static/js/453.d2e3cbc6.chunk.js": "/SALON-82/static/js/453.d2e3cbc6.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/SALON-82/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/imge-all.jpeg": "/SALON-82/static/media/imge-all.631986b003680ae5fcf0.jpeg",
@@ -22,12 +22,12 @@
     "static/media/Saloon 82-01.png": "/SALON-82/static/media/Saloon 82-01.feb84dd0f94d6231fbd0.png",
     "static/media/gallery-7.jpg": "/SALON-82/static/media/gallery-7.01e59754d590a0ac5719.jpg",
     "index.html": "/SALON-82/index.html",
-    "main.e299ad22.css.map": "/SALON-82/static/css/main.e299ad22.css.map",
-    "main.b877aa64.js.map": "/SALON-82/static/js/main.b877aa64.js.map",
+    "main.96d83cff.css.map": "/SALON-82/static/css/main.96d83cff.css.map",
+    "main.de78e966.js.map": "/SALON-82/static/js/main.de78e966.js.map",
     "453.d2e3cbc6.chunk.js.map": "/SALON-82/static/js/453.d2e3cbc6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e299ad22.css",
-    "static/js/main.b877aa64.js"
+    "static/css/main.96d83cff.css",
+    "static/js/main.de78e966.js"
   ]
 }
