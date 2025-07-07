@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <BootstrapNavbar className="custom-navbar" expand="lg">
       <Container>
-        <BootstrapNavbar.Brand href="/" className="d-flex align-items-center">
+        <BootstrapNavbar.Brand href="#/" className="d-flex align-items-center">
           <img src={logo} alt="Salon 82 Logo" className="navbar-logo" />
           <span className="ms-2 logo-text"></span>
         </BootstrapNavbar.Brand>
