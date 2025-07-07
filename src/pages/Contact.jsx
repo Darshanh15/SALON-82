@@ -49,7 +49,7 @@ const Contact = () => {
       <a href="https://www.instagram.com/salon82.blr/" target="_blank" rel="noopener noreferrer">
         <FaInstagram />
       </a>
-      <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.youtube.com/@Salon82HSRHairFacialExperts" target="_blank" rel="noopener noreferrer">
         <FaYoutube />
       </a>
     </div>

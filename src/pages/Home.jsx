@@ -45,50 +45,6 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="work-section">
-        <div className="text">
-          <h1>See Our Work!</h1>
-          <p>
-            Here’s a quick look at the beauty transformations we’ve worked on.
-            Whether it’s temporary makeup or a complete makeover, you can trust
-            us.
-          </p>
-        </div>
-
-        <div className="work-iframe-grid"></div>
-        <div className="work_img">
-          <iframe
-            src="https://www.instagram.com/reel/DLy88cKP-r8/embed"
-            frameBorder="0"
-            allowFullScreen
-            title="Reel 1"
-          ></iframe>
-          <iframe
-            src="https://www.instagram.com/reel/DLy9thHM0S9/embed"
-            frameBorder="0"
-            allowFullScreen
-            title="Reel 2"
-          ></iframe>
-          <iframe
-            src="https://www.instagram.com/reel/DLG757JtCiw/embed"
-            frameBorder="0"
-            allowFullScreen
-            title="Reel 3"
-          ></iframe>
-          <iframe
-            src="https://www.instagram.com/reel/DLAgRBjtkIl/embed"
-            frameBorder="0"
-            allowFullScreen
-            title="Reel 4"
-          ></iframe>
-          <img src={img5} alt="" />
-          <img src={img6} alt="" />
-          <img src={img7} alt="" />
-          <img src={img8} alt="" />
-        </div>
-      </section>
-
-
 
 
 <section className="work-section">
@@ -102,92 +58,21 @@ const Home = () => {
 
   <div className="work-iframe-grid">
     <iframe
-      src="https://www.instagram.com/reel/DLy88cKP-r8/embed"
-      frameBorder="0"
-      allowFullScreen
-      title="Reel 1"
-    ></iframe>
-    <iframe
-      src="https://www.instagram.com/reel/DLy9thHM0S9/embed"
-      frameBorder="0"
-      allowFullScreen
-      title="Reel 2"
-    ></iframe>
-    <iframe
-      src="https://www.instagram.com/reel/DLG757JtCiw/embed"
-      frameBorder="0"
-      allowFullScreen
-      title="Reel 3"
-    ></iframe>
-    <iframe
-      src="https://www.instagram.com/reel/DLAgRBjtkIl/embed"
-      frameBorder="0"
-      allowFullScreen
-      title="Reel 4"
-    ></iframe>
-  </div>
-</section>
-
-<section className="work-section">
-  <div className="text">
-    <h1>See Our Work!</h1>
-    <p>Quick look at the beauty transformations we’ve done!</p>
-  </div>
-
-  <div className="work-thumbs">
-    <a href="https://www.instagram.com/reel/DLy88cKP-r8/" target="_blank" rel="noopener noreferrer">
-      <div className="thumb">
-        <img src={img1} alt="Reel 2" />
-        <span className="play">&#9658;</span>
-      </div>
-    </a>
-    <a href="https://www.instagram.com/reel/DLy9thHM0S9/" target="_blank" rel="noopener noreferrer">
-      <div className="thumb">
-        <img src={img2} alt="Reel 2" />
-        <span className="play">&#9658;</span>
-      </div>
-    </a>
-    <a href="https://www.instagram.com/reel/DLG757JtCiw/" target="_blank" rel="noopener noreferrer">
-      <div className="thumb">
-        <img src={img3} alt="Reel 3" />
-        <span className="play">&#9658;</span>
-      </div>
-    </a>
-    <a href="https://www.instagram.com/reel/DLAgRBjtkIl/" target="_blank" rel="noopener noreferrer">
-      <div className="thumb">
-        <img src={img4} alt="Reel 4" />
-        <span className="play">&#9658;</span>
-      </div>
-    </a>
-  </div>
-</section>
-
-<section className="work-section">
-  <div className="text">
-    <h1>See Our Work!</h1>
-    <p>
-      Here’s a quick look at the beauty transformations we’ve worked on.
-      Whether it’s temporary makeup or a complete makeover, you can trust us.
-    </p>
-  </div>
-
-  <div className="work-iframe-grid">
-    <iframe
-      src="https://www.youtube.com/embed/nFgsBxw-zWQ"
+      src="https://www.youtube.com/embed/ut0smg46Y2s?si=HlN67ewiZVTgx8JW"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       title="Reel 1"
     ></iframe>
     <iframe
-      src="https://www.youtube.com/embed/nFgsBxw-zWQ"
+      src="https://www.youtube.com/embed/e9L6GKjrhcI?si=4WI0E50qdlE0WYE7"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       title="Reel 2"
     ></iframe>
     <iframe
-      src="https://www.youtube.com/embed/nFgsBxw-zWQ"
+      src="https://www.youtube.com/embed/RKTjbnbT-tg?si=i461ClN-SPRKUivX"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
@@ -195,7 +80,9 @@ const Home = () => {
     ></iframe>
     <iframe
       // src="https://www.youtube.com/embed/nFgsBxw-zWQ"
-      src="https://www.youtube.com/embed/H11Bm71bVBg?si=ffgrMCsv-5u5WXjo"
+      // https://youtube.com/shorts/ut0smg46Y2s?si=HlN67ewiZVTgx8JW
+      src="https://www.youtube.com/embed/j5j5f_5R-7c?si=1MFAd-5MBsQ7hzaD"
+      // https://youtube.com/shorts/j5j5f_5R-7c?si=1MFAd-5MBsQ7hzaD
       // https://youtu.be/H11Bm71bVBg?si=ffgrMCsv-5u5WXjo
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -204,7 +91,6 @@ const Home = () => {
     ></iframe>
   </div>
 </section>
-
 
 
       {/* our clint speek */}

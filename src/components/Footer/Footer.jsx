@@ -40,7 +40,7 @@ function Footer() {
           <div className="social-icons">
             <a href="https://www.facebook.com/share/1G6mEP1TMx/"><FaFacebookF /></a>
             <a href="https://www.instagram.com/salon82.blr/"><FaInstagram /></a>
-            <a href="#"><FaYoutube /></a>
+            <a href="https://www.youtube.com/@Salon82HSRHairFacialExperts"><FaYoutube /></a>
           </div>
         </div>
       </div>
