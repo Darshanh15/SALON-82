@@ -16,12 +16,12 @@ function Footer() {
         </div>
 
         <div className="footer-links">
-          <h4>Quick Links</h4>
+          <h4>Address Links</h4>
           <ul>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/privacy">Privacy Policy</a></li>
+            <li>#965, Anvi pride, 9th main road</li>
+            <li>HSR Layout Sector 7</li>
+            <li>Bengaluru - 560102</li>
+            {/* <li><a href="/privacy">Privacy Policy</a></li> */}
           </ul>
         </div>
 
@@ -38,8 +38,8 @@ function Footer() {
         <div className="footer-social">
           <h4>Follow Us</h4>
           <div className="social-icons">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaInstagram /></a>
+            <a href="https://www.facebook.com/share/1G6mEP1TMx/"><FaFacebookF /></a>
+            <a href="https://www.instagram.com/salon82.blr/"><FaInstagram /></a>
             <a href="#"><FaYoutube /></a>
           </div>
         </div>

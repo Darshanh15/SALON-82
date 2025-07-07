@@ -100,10 +100,10 @@ $border-light: #e0e0e0;
   a {
     margin-right: 15px;
     font-size: 24px;
-    color: #c2185b; // or use $pink-color if SCSS
+    color: $white-color !important;
 
     &:hover {
-      color: #a3144a;
+      color: $primary-color!important;
     }
 
     svg {
