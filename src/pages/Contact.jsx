@@ -38,9 +38,10 @@ const Contact = () => {
         <div className="contact-info">
           <h3>Visit Us</h3>
           <p>SALON 82 – Hair & Skin Studio</p>
-          <p>82 Glam Street, Beauty City, IN</p>
-          <p>📞 +91 98765 43210</p>
-          <p>📧 info@salon82.in</p>
+          <p>965, Anvi pride, 9th main road, HSR Layout Sector 7</p>
+          <p>Bengaluru - 560102 </p>
+          <p>📞 +91 9090602082</p>
+          <p>📧 connect@salon82bglr.in</p>
 
           <div className="social-icons">
       <a href="https://www.facebook.com/share/1G6mEP1TMx/" target="_blank" rel="noopener noreferrer">
