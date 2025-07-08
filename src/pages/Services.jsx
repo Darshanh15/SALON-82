@@ -27,22 +27,22 @@ const services = [
     link: '/skin'
   },
   {
-    icon: <FaFan />,
-    title: 'Body Spa',
-    desc: 'Relaxing full-body spa and massage therapy services.',
-    link: '/spa'
+    icon: <FaPaintBrush />,
+    title: 'Nail & Art',
+    desc: 'Nail extensions, art, and manicure-pedicure combos.',
+    link: '/nail'
   },
+  // {
+  //   icon: <FaFan />,
+  //   title: 'Body Spa',
+  //   desc: 'Relaxing full-body spa and massage therapy services.',
+  //   link: '/spa'
+  // },
   {
     icon: <FaRegSmileBeam />,
     title: 'Bridal Makeup',
     desc: 'Complete bridal packages including makeup, hairdo & draping.',
     link: '/bridal'
-  },
-  {
-    icon: <FaPaintBrush />,
-    title: 'Nail & Art',
-    desc: 'Nail extensions, art, and manicure-pedicure combos.',
-    link: '/nail'
   },
   {
     icon: <FaUserTie />,
