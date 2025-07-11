@@ -1,6 +1,6 @@
 @import '../styles/colors';
 
-.service-hair-page {
+.service-nail-page {
   background-color: $primary-light; // Matches the grey background
   display: flex;
   flex-wrap: wrap;
@@ -82,7 +82,7 @@
     }
   }
 
-  .hair-img {
+  .nail-img {
     flex: 1 1 40%;
     display: flex;
     justify-content: center;
@@ -107,7 +107,7 @@
     flex-direction: column;
 
     .text,
-    .hair-img {
+    .nail-img {
       flex: 1 1 100%;
       padding: 0;
       text-align: center;
@@ -121,7 +121,7 @@
       }
     }
 
-    .hair-img {
+    .nail-img {
       margin-top: 40px;
     }
   }

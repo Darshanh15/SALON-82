@@ -43,12 +43,13 @@
       p {
         font-size: 1.2rem;
         max-width: 500px;
-        color: #333;
+        color: $secondary-color;
         margin-bottom: 30px;
+        font-weight: 500;
       }
 
       .hero-button {
-        background-color: $secondary-color;
+        background-color: $pink-light-color;
         color: white;
         padding: 12px 24px;
         text-decoration: none;

@@ -37,7 +37,7 @@ function App() {
         <Route path="/grooming" element={<Grooming />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer />
+      <Footer  id="footer" />
     </>
   );
 }

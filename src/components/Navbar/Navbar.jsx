@@ -17,7 +17,7 @@ const Navbar = () => {
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
         <BootstrapNavbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#/" className="nav-link-custom">Salon near me</Nav.Link>
+            <Nav.Link href="#footer" className="nav-link-custom">Salon near me</Nav.Link>
             <Nav.Link href="#/about" className="nav-link-custom">About</Nav.Link>
             <Nav.Link href="#/gallery" className="nav-link-custom">Gallery</Nav.Link>
             {/* <Nav.Link as={NavLink} to="/gallery" className="nav-link-custom">Gallery</Nav.Link> */}

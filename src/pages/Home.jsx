@@ -162,10 +162,12 @@ const Home = () => {
       <section className="services-preview">
         <h2>Our Specialties</h2>
         <div className="services-grid">
+          <Link to="/hair">
           <div className="service-card">
             <h3>Hair Styling</h3>
             <p>Trendy cuts, color, keratin, smoothening & more.</p>
           </div>
+          </Link>
           <div className="service-card">
             <h3>Skin Treatments</h3>
             <p>Facials, peels, anti-aging, and glow-ups tailored for you.</p>
