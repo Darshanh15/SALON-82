@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SALON-82/static/css/main.4c884411.css",
-    "main.js": "/SALON-82/static/js/main.8dc92f26.js",
+    "main.js": "/SALON-82/static/js/main.138b502d.js",
     "static/js/453.d2e3cbc6.chunk.js": "/SALON-82/static/js/453.d2e3cbc6.chunk.js",
     "static/media/nail-img.jpg": "/SALON-82/static/media/nail-img.6ad83b35a4eb55982e3e.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/SALON-82/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -25,11 +25,11 @@
     "static/media/gallery-7.jpg": "/SALON-82/static/media/gallery-7.01e59754d590a0ac5719.jpg",
     "index.html": "/SALON-82/index.html",
     "main.4c884411.css.map": "/SALON-82/static/css/main.4c884411.css.map",
-    "main.8dc92f26.js.map": "/SALON-82/static/js/main.8dc92f26.js.map",
+    "main.138b502d.js.map": "/SALON-82/static/js/main.138b502d.js.map",
     "453.d2e3cbc6.chunk.js.map": "/SALON-82/static/js/453.d2e3cbc6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c884411.css",
-    "static/js/main.8dc92f26.js"
+    "static/js/main.138b502d.js"
   ]
 }
