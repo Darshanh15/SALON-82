@@ -9,7 +9,8 @@ import img4 from '../assets/gallery/gallery-4.jpg'
 import img5 from '../assets/gallery/gallery-5.jpg'
 import img6 from '../assets/gallery/gallery-6.jpg'
 import img7 from '../assets/gallery/gallery-7.jpg'
-import img8 from '../assets/gallery/gallery-8.jpg'
+import img8 from '../assets/gallery/gallery-8.jpg';
+import Video from '../assets/video/video1.mp4';
 
 const fadeUpVariant = {
   hidden: { opacity: 0, y: 40 },
@@ -47,7 +48,8 @@ const About = () => {
           transition={{ duration: 0.8, ease: 'easeOut' }}
           viewport={{ once: true, amount: 0.5 }}
         >
-          <img src={img3} alt="Inside Salon 82" />
+          {/* <img src={img3} alt="Inside Salon 82" /> */}
+          <video src={Video} controls autoPlay muted loop width="100%" />
         </motion.div>
 
         <motion.div

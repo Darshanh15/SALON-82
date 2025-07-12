@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube , FaWhatsapp} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 import logo from "../../assets/Saloon 82-01.png";
@@ -41,6 +41,8 @@ function Footer() {
             <a href="https://www.facebook.com/share/1G6mEP1TMx/"><FaFacebookF /></a>
             <a href="https://www.instagram.com/salon82.blr/"><FaInstagram /></a>
             <a href="https://www.youtube.com/@Salon82HSRHairFacialExperts"><FaYoutube /></a>
+            <a href="https://wa.me/919090602082"> <FaWhatsapp /> </a>
+            
           </div>
         </div>
       </div>

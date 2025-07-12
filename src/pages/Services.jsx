@@ -38,18 +38,18 @@ const services = [
   //   desc: 'Relaxing full-body spa and massage therapy services.',
   //   link: '/spa'
   // },
-  {
-    icon: <FaRegSmileBeam />,
-    title: 'Bridal Makeup',
-    desc: 'Complete bridal packages including makeup, hairdo & draping.',
-    link: '/bridal'
-  },
-  {
-    icon: <FaUserTie />,
-    title: 'Grooming',
-    desc: 'Men’s haircuts, beard styling, skin & wellness packages.',
-    link: '/grooming'
-  },
+  // {
+  //   icon: <FaRegSmileBeam />,
+  //   title: 'Bridal Makeup',
+  //   desc: 'Complete bridal packages including makeup, hairdo & draping.',
+  //   link: '/bridal'
+  // },
+  // {
+  //   icon: <FaUserTie />,
+  //   title: 'Grooming',
+  //   desc: 'Men’s haircuts, beard styling, skin & wellness packages.',
+  //   link: '/grooming'
+  // },
 ];
 
 const Services = () => {
