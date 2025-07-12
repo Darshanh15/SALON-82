@@ -89,6 +89,55 @@ const About = () => {
         <h2>Our Vision</h2>
         <p>To become the leading destination in Bangalore for refined beauty and self-care, known for sophistication, innovation, and soulful service.</p>
       </motion.div>
+
+
+      <motion.div
+        className="about__vision"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        variants={fadeUpVariant}
+        custom={3}
+      >
+        <h2>Premium Beauty Salon in HSR Layout, Bangalore</h2>
+        <p>Welcome to Salon 82, your luxury destination for hair, skin, and nail care in HSR Layout, Bangalore. Founded and passionately led by Mr. Nikhil, Salon 82 is built on the vision of delivering exceptional salon experiences with the highest standards of hygiene, professionalism, and style.</p>
+      </motion.div>
+
+      <motion.div
+        className="about__vision"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        variants={fadeUpVariant}
+        custom={3}
+      >
+        <h2>At Salon 82, we specialize in:</h2>
+        <p>Advanced Haircuts & Hair Coloring</p>
+<p>Customized Facials & Skin Treatments</p>
+<p>Trendy Nail Art & Nail Extensions</p>
+<p>Bridal Makeovers & Grooming Packages</p>
+<p>With a team of highly trained beauty experts and stylists, we use premium products and modern techniques to enhance your natural beauty. Whether you're getting ready for a wedding, a casual makeover, or just want to pamper yourself — Salon 82 ensures you leave feeling confident and rejuvenated.
+Our boutique salon is a serene space designed to make every visit relaxing and rejuvenating. With personalized services and customer satisfaction as our top priority, Salon 82 has quickly become one of the top-rated salons in HSR Layout.
+</p>
+      </motion.div>
+
+<motion.div
+        className="about__vision"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        variants={fadeUpVariant}
+        custom={3}
+      >
+        <h2>✅ Why Choose Salon 82?</h2>
+        <p>Owned & managed by industry professional Mr. Nikhil</p>
+<p>Located at the heart of HSR Layout, Bangalore</p>
+<p>Use of international-quality beauty products</p>
+<p>Friendly, certified, and experienced staff</p>
+<p>Online appointment booking & flexible packages</p>
+      </motion.div>
+
+      
     </section>
   );
 };
