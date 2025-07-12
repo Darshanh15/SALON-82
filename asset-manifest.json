@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SALON-82/static/css/main.901756f7.css",
-    "main.js": "/SALON-82/static/js/main.fa29d1dc.js",
+    "main.css": "/SALON-82/static/css/main.d4c6d9c6.css",
+    "main.js": "/SALON-82/static/js/main.5c443541.js",
     "static/js/453.d2e3cbc6.chunk.js": "/SALON-82/static/js/453.d2e3cbc6.chunk.js",
     "static/media/video1.mp4": "/SALON-82/static/media/video1.282eb4689bcc8af1d9dd.mp4",
     "static/media/nail-img.jpg": "/SALON-82/static/media/nail-img.6ad83b35a4eb55982e3e.jpg",
@@ -32,12 +32,12 @@
     "static/media/Saloon 82-01.png": "/SALON-82/static/media/Saloon 82-01.feb84dd0f94d6231fbd0.png",
     "static/media/gallery-7.jpg": "/SALON-82/static/media/gallery-7.01e59754d590a0ac5719.jpg",
     "index.html": "/SALON-82/index.html",
-    "main.901756f7.css.map": "/SALON-82/static/css/main.901756f7.css.map",
-    "main.fa29d1dc.js.map": "/SALON-82/static/js/main.fa29d1dc.js.map",
+    "main.d4c6d9c6.css.map": "/SALON-82/static/css/main.d4c6d9c6.css.map",
+    "main.5c443541.js.map": "/SALON-82/static/js/main.5c443541.js.map",
     "453.d2e3cbc6.chunk.js.map": "/SALON-82/static/js/453.d2e3cbc6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.901756f7.css",
-    "static/js/main.fa29d1dc.js"
+    "static/css/main.d4c6d9c6.css",
+    "static/js/main.5c443541.js"
   ]
 }
