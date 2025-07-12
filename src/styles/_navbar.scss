@@ -190,15 +190,23 @@
 
   // 🔧 Custom hamburger icon fix
   .navbar-toggler {
-    padding: 6px;
-    border: none;
+    border: none; // Remove border
+    background-color: transparent; // Remove dark background
+    padding: 0.25rem;
     outline: none;
-    box-shadow: none;
+
+    &:focus,
+    &:active {
+      box-shadow: none; // Remove focus ring
+    }
 
     .navbar-toggler-icon {
+      background-image: none; // Remove default icon
+
+      // Custom hamburger lines
       width: 24px;
       height: 2px;
-      background-color: $primary-color; // ✅ Your preferred color (like orange or white)
+      background-color: $primary-color;
       position: relative;
       display: inline-block;
 
@@ -206,11 +214,10 @@
       &::after {
         content: '';
         position: absolute;
-        left: 0;
-        width: 100%;
+        width: 24px;
         height: 2px;
         background-color: $primary-color;
-        transition: 0.3s ease;
+        left: 0;
       }
 
       &::before {

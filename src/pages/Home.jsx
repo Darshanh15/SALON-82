@@ -41,7 +41,9 @@ const Home = () => {
             Glow up with exclusive offers and premium styling sessions at SALON
             82.
           </p>
-          <button>Book Now</button>
+          <Link to="/contact" className="cta-button">
+          Book Now
+        </Link>
         </div>
       </section>
 
@@ -112,8 +114,8 @@ const Home = () => {
               <i className="fa fa-star-half-o" />
             </span>
             <p>
-              Diremit mundi mare undae nunc mixtam tanto sibi. Nubes unda
-              concordi. Fert his. Recessit mentes praecipites locum gens erat.
+              Absolutely loved my hair makeover! The staff was 
+              friendly and really knew what they were doing.
             </p>
             <div className="clint">
               <img src={img1} alt="" />
@@ -129,8 +131,7 @@ const Home = () => {
               <i className="fa fa-star-half-o" />
             </span>
             <p>
-              Diremit mundi mare undae nunc mixtam tanto sibi. Nubes unda
-              concordi. Fert his. Recessit mentes praecipites locum gens erat.
+              I visited for a wedding look and the makeup was stunning! Felt like a queen. Will definitely return!
             </p>
             <div className="clint">
               <img src={img2} alt="" />
@@ -147,8 +148,8 @@ const Home = () => {
               <i className="fa fa-star-half-o" />
             </span>
             <p>
-              Diremit mundi mare undae nunc mixtam tanto sibi. Nubes unda
-              concordi. Fert his. Recessit mentes praecipites locum gens erat.
+              Great ambiance, professional service, and the facial made 
+              my skin glow like never before. Highly recommend!
             </p>
             <div className="clint">
               <img src={img3} alt="" />
@@ -202,105 +203,3 @@ const Home = () => {
 
 export default Home;
 
-// import React from 'react';
-// import { motion } from 'framer-motion';
-// import './Home.scss';
-
-// const fadeVariant = {
-//   hidden: { opacity: 0, y: 30 },
-//   visible: (i = 1) => ({
-//     opacity: 1,
-//     y: 0,
-//     transition: {
-//       delay: i * 0.2,
-//       duration: 0.7,
-//       ease: 'easeOut',
-//     },
-//   }),
-// };
-
-// const Home = () => {
-//   return (
-//     <section className="home">
-//       <div className="home__banner">
-//         <div className="home__banner-overlay">
-//           <motion.div
-//             className="home__hero-text"
-//             initial="hidden"
-//             whileInView="visible"
-//             viewport={{ once: true }}
-//             variants={fadeVariant}
-//             custom={0}
-//           >
-//             <h1>Welcome to <span>SALON 82</span></h1>
-//             <p>Where Beauty Meets Excellence</p>
-//             <button className="home__cta">Schedule an Appointment</button>
-//           </motion.div>
-//         </div>
-//       </div>
-
-//       <motion.div
-//         className="home__features"
-//         initial="hidden"
-//         whileInView="visible"
-//         viewport={{ once: true }}
-//         variants={fadeVariant}
-//         custom={1}
-//       >
-//         <div className="feature-card">
-//           <img src="/images/feature1.jpg" alt="Hair Styling" />
-//           <h3>Hair Styling</h3>
-//           <p>Trendy cuts, colors, and expert styling to match your vibe.</p>
-//         </div>
-//         <div className="feature-card">
-//           <img src="/images/feature2.jpg" alt="Skin Care" />
-//           <h3>Skin Care</h3>
-//           <p>Glow-enhancing facials and treatments curated for your skin type.</p>
-//         </div>
-//         <div className="feature-card">
-//           <img src="/images/feature3.jpg" alt="Luxury Spa" />
-//           <h3>Luxury Spa</h3>
-//           <p>Unwind in our spa zone with soothing therapies and ambiance.</p>
-//         </div>
-//       </motion.div>
-
-//       <motion.div
-//         className="home__gallery"
-//         initial="hidden"
-//         whileInView="visible"
-//         viewport={{ once: true }}
-//         variants={fadeVariant}
-//         custom={2}
-//       >
-//         <h2>Salon Experience Gallery</h2>
-//         <div className="gallery-grid">
-//           <img src="/images/gallery1.jpg" alt="Client Hair Styling" />
-//           <img src="/images/gallery2.jpg" alt="Facial Treatment Room" />
-//           <img src="/images/gallery3.jpg" alt="Spa Relaxation" />
-//           <img src="/images/gallery4.jpg" alt="Luxury Interior" />
-//         </div>
-//       </motion.div>
-
-//       <motion.div
-//         className="home__testimonial"
-//         initial="hidden"
-//         whileInView="visible"
-//         viewport={{ once: true }}
-//         variants={fadeVariant}
-//         custom={3}
-//       >
-//         <h2>What Our Clients Say</h2>
-//         <div className="testimonial-card">
-//           <p>“Salon 82 is a luxurious escape! The ambiance is serene, and the service is top-notch. I left feeling refreshed and pampered.”</p>
-//           <span>- Riya Mehra</span>
-//         </div>
-//         <div className="testimonial-card">
-//           <p>“From hairstyling to skincare, everything was perfect. Highly recommend their team for professionalism and elegance.”</p>
-//           <span>- Sneha Kapoor</span>
-//         </div>
-//       </motion.div>
-//     </section>
-//   );
-// };
-
-// export default Home;

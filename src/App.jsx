@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Gallery from './pages/Gallery';
+import Gallery from "./pages/Gallery";
 import Services from "./pages/Services";
 import Hair from "./pages/Hair";
 import Skin from "./pages/Skin";
@@ -19,11 +19,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 
 import "./styles/main.scss";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 function App() {
   return (
     <>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -37,11 +39,9 @@ function App() {
         <Route path="/grooming" element={<Grooming />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer  id="footer" />
+      <Footer id="footer" />
     </>
   );
 }
 
 export default App;
-
-
