@@ -427,13 +427,13 @@
 
     .say-card {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 30px;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
       padding: 0 10px;
 
       .card {
         background-color: white;
-        padding: 30px 20px;
+        padding: 20px 20px;
         border-radius: 15px;
         box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -462,8 +462,30 @@
           color: #555;
           font-size: 1rem;
           line-height: 1.5;
-          margin-bottom: 25px;
+          margin-bottom: 15px;
         }
+
+        .client-avatar {
+  width: 40px;
+  height: 40px;
+  // background-color: #f39c12; // or any brand color
+  background-color: #c2185b; // or any brand color
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.clint {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
 
         .clint {
           display: flex;
