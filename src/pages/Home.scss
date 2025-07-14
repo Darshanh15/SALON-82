@@ -49,7 +49,7 @@
       }
 
       .hero-button {
-        background-color: $pink-light-color;
+        background-color: $primary-dark;
         color: white;
         padding: 12px 24px;
         text-decoration: none;
@@ -58,7 +58,7 @@
         transition: all 0.3s ease;
 
         &:hover {
-          background-color: $primary-dark;
+          background-color: $text-muted;
         }
       }
     }
@@ -179,17 +179,17 @@
       }
 
       .cta-button {
-      background-color: $pink-color;
-      color: $white-color;
+      background-color: $primary-color;
+      color: $text-light;
       padding: 12px 24px;
       border-radius: 5px;
       text-decoration: none;
       font-weight: bold;
 
       &:hover {
-        background-color: $primary-dark;
+        background-color: $text-muted;
       }
-      }
+    }
     }
   }
 
@@ -561,7 +561,7 @@
       color: $text-light;
     }
     .cta-button {
-      background-color: $pink-color;
+      background-color: $primary-color;
       color: $text-light;
       padding: 12px 24px;
       border-radius: 5px;
@@ -569,7 +569,7 @@
       font-weight: bold;
 
       &:hover {
-        background-color: $primary-color;
+        background-color: $text-muted;
       }
     }
   }
